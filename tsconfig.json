@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "dist/server",
+
+    "strict": true,
+
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "jsx": "react",
+    "allowJs": false,
+    "rootDirs": ["src"],
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+
+    "suppressImplicitAnyIndexErrors": true,
+		"noUnusedLocals": true,
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"declaration": true,
+		"removeComments": true,
+    "preserveConstEnums": true,
+    "baseUrl": "src",
+  },
+  "include": ["src/server/*", "src/server/**/*"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "typings/browser.d.ts",
+    "typings/browser",
+    "src/app",
+  ],
+}
